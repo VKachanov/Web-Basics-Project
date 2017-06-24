@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Orbitron', 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+.top {
+    background: radial-gradient(ellipse at center,
+    rgba(27, 61, 87, 1) 0%,
+    rgba(27, 61, 87, 1) 59%,
+    rgba(17, 27, 43, 1) 100%) no-repeat center center;
+    text-align: center;
+    margin: 0 auto;
+    background-size: cover;
+    height: 100vh;
+    color: #FFFFFF;
+}
+/* Left Logo*/
+
+.brand {
+    float: left;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1.8em;
+}
+
+.brand a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/* nav ul*/
+
+.nav-primary {
+    float: right;
+}
+
+/* nav ul li*/
+
+.nav-item {
+    display: inline-block;
+    padding: 20px;
+}
+
+.nav-item a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 6px 10px 6px 10px;
+    line-height: 100%;
+    border-radius: 5px;
+}
+
+.nav-item a:hover {
+    color: #ffa000;
+}
+
+/* last li*/
+
+.button-cta {
+    margin-right: 40px;
+    border-radius: 5px;
+    padding: 6px 0 6px 0;
+    background-color: #ffa000;
+}
+
+.button-cta:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #13092B;
+}
+
+.button-cta a:hover {
+    background-color: white;
+    color: #13092B;
+}
+
+/* div containing text and button above image*/
+
+.main-header h1 {
+    text-transform: capitalize;
+    padding-top: 120px;
+    font-size: 5em;
+    font-weight: 900;
+}
+
+.main-header p {
+    text-transform: capitalize;
+    padding-top: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.main-header a {
+    margin: 20px auto;
+    display: block;
+    width: 120px;
+    height: 25px;
+    background: #13092B;
+    padding: 10px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform:uppercase;
+}
+
+.main-header a:hover,
+.main-header a:hover
+.fa-chevron-right {
+    background: #ffa000;
+    color: #13092B;
+    cursor: pointer;
+}
+
+.main-header i {
+    color: #ffa000;
+}
+
+.header-title {
+    text-transform: capitalize;
+    Letter-spacing: 2px;
+    font-size: 2.6em;
+}
+
+.header-title2 {
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.header-photo {
+    padding-bottom: 30px;
+    opacity: 0.6;
+    border-radius: 350px;
+    width: 200px;
+    height: 200px;
+}
+
+/* sections with entertainment*/
+
+.shower-bed-spoon,
+.plane-train-ship {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.shower-bed-spoon article,
+.plane-train-ship article {
+    width: 25%;
+    display: inline-block;
+    margin-left: 18px;
+}
+
+.shower-bed-spoon h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 40px;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #090821;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+main p {
+    font-size: 0.9em;
+    margin: 10px 0 0;
+    text-transform: none;
+    color: #000;
+}
+
+main p, h5 {
+    text-align: left;
+}
+
+h5 {
+    width: 450px;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+
+/* potato stuff*/
+
+.features {
+    background: url("images/potato-background.png") no-repeat center;
+    text-align: center;
+}
+
+.features-title {
+    padding-top: 150px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.features-subtitle {
+    padding: 20px;
+    font-weight: 100;
+    width: 520px;
+    margin: 0 auto;
+}
+
+.feature-potatoes {
+    padding-bottom: 150px;
+}
+
+.buy-now {
+    text-align: center;
+}
+
+.order-title {
+    padding: 30px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 100;
+    color: #c9c9c9;
+    font-size: 2.8em;
+}
+
+.potato {
+    display: inline-block;
+    border-right: 2px solid #c9c9c9;
+    padding: 30px 50px 30px 50px;
+    margin-bottom: 50px;
+}
+
+.potato-features {
+    list-style-type: none;
+}
+
+.potato-title {
+    color: #c9c9c9;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.potato-description {
+    padding-bottom: 20px;
+    color: #c9c9c9;
+    font-size: 1.1em;
+}
+
+.potato-img {
+    width: 180px;
+    height: 130px;
+}
+
+.btn-order {
+    padding: 8px 32px 8px 32px;
+    border: 2px solid #9acd32;
+    border-radius: 20px;
+    background: none;
+    color: #9acd32;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.btn-order:hover {
+    cursor: pointer;
+    background-color: #9acd32;
+    color: #FFFFFF;
+}
+
+.potato-price {
+    padding: 15px;
+}
+
+footer {
+    background-color: #234465;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-text {
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 2px;
+    letter-spacing: 1px;
+}

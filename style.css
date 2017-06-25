@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Orbitron', 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+.top {
+    background: radial-gradient(ellipse at center,
+    rgba(27, 61, 87, 1) 0%,
+    rgba(27, 61, 87, 1) 59%,
+    rgba(17, 27, 43, 1) 100%) no-repeat center center;
+    text-align: center;
+    margin: 0 auto;
+    background-size: cover;
+    height: 768px/*100vh*/;
+    color: #FFFFFF;
+}
+/* Left Logo*/
+
+.brand {
+    float: left;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1.8em;
+}
+
+.brand a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/* nav ul*/
+
+.nav-primary {
+    float: right;
+}
+
+/* nav ul li*/
+
+.nav-item {
+    display: inline-block;
+    padding: 18px 0 18px 0;
+}
+
+.nav-item a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 6px 10px 6px 10px;
+    line-height: 100%;
+    border-radius: 5px;
+}
+
+.nav-item a:hover {
+    color: #ffa000;
+}
+
+/* last li*/
+
+.button-cta {
+    margin-right: 40px;
+    border-radius: 5px;
+    padding: 6px 0 6px 0;
+    background-color: #ffa000;
+}
+
+.button-cta:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #13092B;
+}
+
+.button-cta a:hover {
+    background-color: white;
+    color: #13092B;
+}
+
+/* div containing text and button above image*/
+
+.main-header h1 {
+    text-transform: capitalize;
+    padding-top: 140px;
+    font-size: 5em;
+    font-weight: 900;
+}
+
+.main-header p {
+    text-transform: capitalize;
+    padding-top: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.main-header a {
+    margin: 20px auto;
+    display: block;
+    width: 120px;
+    height: 25px;
+    background: #13092B;
+    padding: 10px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform:uppercase;
+}
+
+.main-header a:hover,
+.main-header a:hover
+.fa-chevron-right {
+    background: #ffa000;
+    color: #13092B;
+    cursor: pointer;
+}
+
+.main-header i {
+    color: #ffa000;
+}
+
+.top figure {
+    margin-top: 40px;
+}
+
+.header-photo {
+    padding-bottom: 50px;
+    opacity: 0.9;
+    border-radius: 350px;
+    width: 270px;
+    height: 270px;
+}
+
+/* sections with entertainment*/
+
+.shower-bed-spoon,
+.plane-train-ship {
+    text-align: center;
+    margin: 60px 0 80px 0;
+}
+
+.shower-bed-spoon article,
+.plane-train-ship article {
+    width: 25%;
+    display: inline-block;
+    margin-left: 18px;
+}
+
+.shower-bed-spoon h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 40px;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #13092B;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+main section article p {
+    font-family: Lato, Orbitron, sans-serif;
+    font-size: 1.1em;
+    margin: 10px 0 0;
+    text-transform: none;
+    color: #000;
+    width: 330px;
+}
+
+main section article p span {
+    font-weight: bold;
+}
+
+main section article p, h5 {
+    text-align: left;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+/* banner */
+
+.banner {
+    margin-bottom: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 40px;
+    display: block;
+    position: relative;
+    text-align: center;
+    color: /*#ffa000*/#e80808;
+}
+
+.banner::after {
+    content: "";
+    background-size: cover;
+    opacity: 0.3;
+    background: url("images/university-banner-background.jpg") center center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.banner-title {
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-size: 2.7em;
+    font-weight: 900;
+}
+
+.banner-subtitle {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding-top: 20px;
+    font-weight: 900;
+}
+
+/* html-for-food stuff*/
+
+.features {
+    background: url("images/matrix-html-for-food-background.jpg");
+    text-align: center;
+    color: #FFFFFF;
+    background-size: cover;
+    height: 768px/*100vh*/;
+}
+
+#html-for-food {
+    margin: 50px auto;
+    border-radius: 220px;
+    width: 600px;
+    height: 668px;
+    border: 5px solid darkgreen;
+    box-shadow: #826B73;
+    opacity: 0.8;
+    filter: drop-shadow(0px 0px 6px white);
+}
+
+/* buy-now fun */
+
+.buy-now {
+    text-align: center;
+}
+
+.order-title {
+    margin: 50px auto 20px auto;
+    padding: 30px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 900;
+    color: #13092B;
+    font-size: 3.8em;
+}
+
+.fun {
+    display: inline-block;
+    border-right: 2px solid #c9c9c9;
+    padding: 30px 50px 30px 50px;
+    margin-bottom: 50px;
+}
+
+.fun-features {
+    list-style-type: none;
+}
+
+.fun-title {
+    color: #13092B;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.fun-description {
+    padding-bottom: 20px;
+    color: #13092B;
+    font-size: 1.1em;
+}
+
+.fun-img {
+    width: 220px;
+    height: 180px;
+    border-radius: 100px;
+}
+
+.btn-order {
+    padding: 8px 32px 8px 32px;
+    border: 3px solid #ffa000/*#9acd32*/;
+    border-radius: 20px;
+    background: none;
+    color: #ffa000/*#9acd32*/;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.btn-order:hover {
+    cursor: pointer;
+    background-color: #ffa000/*#9acd32*/;
+    color: #13092B/*#FFFFFF*/;
+    font-weight: 700;
+}
+
+.fun-price {
+    padding: 20px;
+}
+
+/* footer */
+
+footer {
+    background-color: #234465;
+    text-align: center;
+    height: 150px;
+}
+
+.footer-text {
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 2px;
+    letter-spacing: 2px;
+    font-size: 0.7em;
+}
+
+.footer-nav {
+    height: 100px;
+}
+
+.bottom {
+    border-top: 1px solid #ffa000;
+    padding-top: 5px;
+    margin: 0 auto;
+    text-align: center;
+}

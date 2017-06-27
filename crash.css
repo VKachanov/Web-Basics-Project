@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Orbitron', 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+.top {
+    background: url("images/crash-screen.png");
+    text-align: center;
+    margin: 0 auto;
+    background-size: cover;
+    height: 768px/*100vh*/;
+    color: #FFFFFF;
+}
+
+/* nav ul*/
+
+.nav-primary {
+    float: right;
+}
+
+/* nav ul li*/
+
+.nav-item {
+    display: inline-block;
+    padding: 18px 0 18px 0;
+}
+
+.nav-item a {
+    color: #1C00B0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 6px 10px 6px 10px;
+    line-height: 100%;
+    border-radius: 5px;
+}
+
+.nav-item a:hover {
+    color: #ffa000;
+}
+
+.warning {
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.warning h1 {
+    text-transform: uppercase;
+    padding-top: 700px;
+    font-size: 0.8em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.warning p {
+    text-transform: capitalize;
+    padding-top: 10px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 0.5em;
+}
+
+.warning span {
+    color: #ffa000;
+}
+
+
+

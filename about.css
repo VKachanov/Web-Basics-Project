@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Orbitron', 'Lato', sans-serif;
+    font-size: 14px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.top {
+    background: radial-gradient(ellipse at center,
+    rgba(27, 61, 87, 1) 0%,
+    rgba(27, 61, 87, 1) 59%,
+    rgba(17, 27, 43, 1) 100%) no-repeat center center;
+    text-align: center;
+    margin: 0 auto;
+    background-size: cover;
+    height: 100vh;
+    color: #FFFFFF;
+}
+/* Left Logo*/
+
+.brand {
+    float: left;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1.8em;
+}
+
+.brand a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/* nav ul*/
+
+.nav-primary {
+    float: right;
+}
+
+/* nav ul li*/
+
+.nav-item {
+    display: inline-block;
+    padding: 18px 0 18px 0;
+}
+
+.nav-item a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 6px 10px 6px 10px;
+    line-height: 100%;
+    border-radius: 5px;
+}
+
+.nav-item a:hover {
+    color: #ffa000;
+}
+
+/* last li*/
+
+.button-cta {
+    margin-right: 40px;
+    border-radius: 5px;
+    padding: 6px 0 6px 0;
+    background-color: #ffa000;
+}
+
+.button-cta:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #13092B;
+}
+
+.button-cta a:hover {
+    background-color: white;
+    color: #13092B;
+}
+
+/* photos section */
+
+div {
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+section {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+    background-color: #FDFDFD;
+    height: 375px;
+    color: #BF1363;
+}
+
+section:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    height: 275px;
+}
+
+.first-box {
+    margin-left: 0;
+}
+
+.last-box {
+    margin-right: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h1, p {
+    padding: 10px;
+}
+
+p {
+    font-weight: 400;
+}

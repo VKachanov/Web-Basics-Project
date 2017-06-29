@@ -237,6 +237,7 @@ h5 {
 /* html-for-food stuff*/
 
 .features {
+    position: relative;
     background: url("images/matrix-html-for-food-background.jpg");
     text-align: center;
     color: #FFFFFF;
@@ -245,7 +246,6 @@ h5 {
 }
 
 #html-for-food {
-    margin: 50px auto;
     border-radius: 220px;
     width: 600px;
     height: 668px;
@@ -253,6 +253,33 @@ h5 {
     box-shadow: #826B73;
     opacity: 0.8;
     filter: drop-shadow(0px 0px 6px white);
+    position: relative;
+    top: 50px;
+    left: 85px;
+}
+
+.features a {
+    display: block;
+    width: 160px;
+    height: 25px;
+    background: #ffa000;
+    padding: 10px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform:uppercase;
+    float: right;
+    margin-top: 65px;
+    margin-right: 20px;
+}
+
+.features a:hover {
+    background: #FFFFFF;
+    color: #13092B;
+    opacity: 0.9;
 }
 
 /* buy-now fun */
@@ -303,7 +330,11 @@ h5 {
 }
 
 .btn-order {
-    padding: 8px 32px 8px 32px;
+    display: block;
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    margin: 20px auto;
     border: 3px solid #ffa000/*#9acd32*/;
     border-radius: 20px;
     background: none;
@@ -311,7 +342,9 @@ h5 {
     text-transform: uppercase;
     font-size: 1.2em;
     font-weight: 600;
+    text-decoration: none;
 }
+
 
 .btn-order:hover {
     cursor: pointer;

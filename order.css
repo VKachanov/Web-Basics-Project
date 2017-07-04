@@ -21,7 +21,7 @@ main {
 
 section {
     width: 40%;
-    background: linear-gradient(to bottom, #6afdc9 0%, #42c9ca 100%);
+    background: linear-gradient(to bottom, #fdc2a6 0%, #ca4f4e 100%);
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
@@ -59,9 +59,9 @@ form h1, select, input, a, label, p  {
 
 select {
     min-width: 75%;
-    background-color: #42C9CA;
+    background-color: #fdc2a6;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #000000;
     margin-top: 15px;
 }
 
@@ -84,8 +84,8 @@ h1 {
 
 input {
     border: none;
-    border-bottom: 2px solid #42c9ca;
-    color: #42c9ca;
+    border-bottom: 2px solid #ca4f4e;
+    color: #ca4f4e;
 }
 
 .btn-continue {
@@ -95,10 +95,10 @@ input {
     line-height: 12px;
     text-align: center;
     padding: 10px;
-    border: 3px solid #42c9ca/*#9acd32*/;
+    border: 3px solid #ca4f4e/*#9acd32*/;
     border-radius: 20px;
     background: none;
-    color: #42c9ca/*#9acd32*/;
+    color: #ca4f4e/*#9acd32*/;
     text-transform: uppercase;
     font-size: 1.2em;
     font-weight: 600;
@@ -107,7 +107,32 @@ input {
 
 .btn-continue:hover {
     cursor: pointer;
-    background-color: #42c9ca/*#9acd32*/;
+    background-color: #ca4f4e/*#9acd32*/;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.go-back {
+    text-decoration: none;
+    border: 3px solid #ffa000/*#9acd32*/;
+    display: block;
+    width: 120px;
+    height: 12px;
+    line-height: 12px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    background: none;
+    color: #ffa000/*#9acd32*/;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 0;
+}
+
+.go-back:hover {
+    cursor: pointer;
+    background-color: #ffa000/*#9acd32*/;
     color: #FFFFFF;
     font-weight: 700;
 }

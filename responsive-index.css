@@ -1,0 +1,16 @@
+@media all and (max-width: 1200px){
+
+    .shower-bed-spoon > div:first-of-type,
+    .plane-train-ship > div:first-of-type {
+        display: none;
+    }
+    .shower-bed-spoon > article:first-of-type,
+    .plane-train-ship > article:first-of-type {
+        display: none;
+    }
+    .shower-bed-spoon > article,
+    .plane-train-ship > article {
+        width: 35%;
+    }
+
+}

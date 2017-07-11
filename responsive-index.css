@@ -12,5 +12,108 @@
     .plane-train-ship > article {
         width: 35%;
     }
+}
 
+@media all and (max-width: 860px) {
+
+    .shower-bed-spoon > div:first-of-type,
+    .plane-train-ship > div:first-of-type {
+        display: none;
+    }
+    .shower-bed-spoon > article:first-of-type,
+    .plane-train-ship > article:first-of-type {
+        display: none;
+    }
+
+    .shower-bed-spoon > div:nth-of-type(2),
+    .plane-train-ship > div:nth-of-type(2) {
+        display: none;
+    }
+    .shower-bed-spoon > article:nth-of-type(2),
+    .plane-train-ship > article:nth-of-type(2) {
+        display: none;
+    }
+
+    #html-for-food {
+        width: 60%;
+    }
+}
+
+@media all and (max-width: 720px) {
+
+    .features {
+        display: none;
+    }
+
+    .two-buttons a:first-of-type {
+        display: none;
+    }
+
+    .validators {
+        display: none;
+    }
+
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+@media all and (max-width: 570px) {
+
+    .shower-bed-spoon,
+    .plane-train-ship {
+        display: none;
+    }
+
+    .header-photo {
+        padding-bottom: 0;
+    }
+
+    .top figure {
+        display: none;
+    }
+
+    .top {
+        height: 500px;
+    }
+
+    .banner {
+        margin-top: 0;
+    }
+
+    .main-header h1 {
+        font-size: 4em;
+    }
+
+    .brand {
+        float: none;
+    }
+
+    .nav-primary {
+        float: none;
+    }
+
+    .main-header h1 {
+        padding-top: 50px;
+    }
+}
+
+@media all and (max-width: 380px) {
+
+    .banner {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+
+    .main-header h1 {
+        font-size: 2em;
+    }
+
+    .order-title {
+        font-size: 2.5em;
+    }
 }

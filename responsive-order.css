@@ -1,0 +1,28 @@
+@media all and (max-width: 900px) {
+
+    .container {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        width: 50%;
+    }
+
+    form select,
+    input {
+        margin-left: 30px;
+    }
+}
+
+@media all and (max-width: 740px) {
+
+    .container h1 {
+        font-size: 1.3em;
+    }
+
+}
+
+@media all and (max-width: 540px) {
+
+    .container {
+        width: 75%;
+    }
+}

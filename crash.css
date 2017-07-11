@@ -10,51 +10,45 @@ body {
     font-size: 14px;
 }
 
-.top {
-    background: url("images/crash-screen.png");
+.background {
     text-align: center;
     margin: 0 auto;
-    background-size: cover;
-    height: 768px/*100vh*/;
     color: #FFFFFF;
+    position: relative;
 }
-
-/* nav ul*/
 
 .nav-primary {
-    float: right;
+    padding: 18px 0;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    z-index: 100;
 }
 
-/* nav ul li*/
-
-.nav-item {
-    display: inline-block;
-    padding: 18px 0 18px 0;
-}
-
-.nav-item a {
+a {
     color: #1C00B0;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    padding: 6px 10px 6px 10px;
-    line-height: 100%;
-    border-radius: 5px;
 }
 
-.nav-item a:hover {
+a:hover {
     color: #ffa000;
 }
 
 .warning {
-    bottom: 0;
+    position: absolute;
+    bottom: 20px;
     left: 0;
     right: 0;
 }
 
+.background img {
+    width: 100%;
+}
+
 .warning h1 {
     text-transform: uppercase;
-    padding-top: 700px;
     font-size: 0.8em;
     font-weight: 400;
     letter-spacing: 1px;
@@ -65,7 +59,7 @@ body {
     padding-top: 10px;
     font-weight: 100;
     letter-spacing: 1px;
-    font-size: 0.5em;
+    font-size: 0.6em;
 }
 
 .warning span {

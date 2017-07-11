@@ -18,9 +18,18 @@
 @media all and (max-width: 780px) {
     div {
         width: 100%;
+        padding-top: 80px;
     }
     a {
         display: block;
     }
-    
+
+    .brand {
+        float: none;
+    }
+
+    .nav-primary {
+        float: none;
+    }
+
 }
